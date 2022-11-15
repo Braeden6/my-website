@@ -1,7 +1,11 @@
 # My Website 
 ### All hosted on [Microsoft Azure](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/get-started/what-is-azure) 
+
 ## Description
 This website is a current passion project of mine, Braeden. It started out as a way to show off my resume and coding skills. It has developed into a learning tool and something that I have fun developing in my free time. 
+### Code
+* [Frontend Repository](https://github.com/Braeden6/website-frontend)
+* [Backend Repository](https://github.com/Braeden6/website-backend) 
 
 File structure setup for this project:
 ```bash
@@ -32,7 +36,7 @@ I am planning to add more ideas as a go.
 * [locations.csv](https://developers.google.com/public-data/docs/canonical/countries_csv)
 * [earthquakes.csv](https://www.kaggle.com/datasets/usgs/earthquake-database)
 
-# Repos and Technologies
+# Technologies
 ## Frontend
 The [Frontend Repository](https://github.com/Braeden6/website-frontend) has two branches, main and development, each with there own CI/CD deployment pipeline. All code edits are push to development, tested with the development test website then merge to main once ready. </br>
 ### Technologies:
