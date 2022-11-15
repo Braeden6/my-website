@@ -1,0 +1,5 @@
+client/
+server/
+*.csv
+env.py
+__pycache__/

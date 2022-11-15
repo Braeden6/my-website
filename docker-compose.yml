@@ -1,0 +1,16 @@
+version: "3"
+services:
+  server:
+    build: ./server
+    volumes:
+      - ./server/:/usr/src/app
+    command: npm run dev
+    ports:
+      - 7071:7071
+  client:
+    build: ./client
+    volumes:
+      - ./client/:/usr/src/app
+    command: npm run dev
+    ports:
+      - 3000:3000
